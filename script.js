@@ -99,13 +99,5 @@ window.addEventListener('scroll', () => {
     lastScroll = currentScroll;
 });
 
-// Scroll to top functionality (optional)
-function scrollToTop() {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
-}
-
 // Log when page is loaded
 console.log('Personal website loaded successfully!');
