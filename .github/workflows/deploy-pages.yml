@@ -35,7 +35,7 @@ jobs:
       # ───────────────────────────────────────────────────────────────
       - name: Assemble site
         env:
-          PUBLISH_PATH: draft
+          PUBLISH_PATH: ''
         run: |
           rm -rf _site
           mkdir -p "_site/${PUBLISH_PATH}"
